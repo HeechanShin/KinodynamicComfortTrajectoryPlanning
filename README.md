@@ -27,7 +27,7 @@ https://sglab.kaist.ac.kr/KinodynamicComfortPlanning/
     4. Build RosInterface and move built library to V-Rep root folder.
   
 2. Install This repository
-```c++
+```
   cd ~/catkin_ws/src ( your catkin workspace source file folder )
   git clone https://github.com/HeechanShin/KinodynamicComfortTrajectoryPlanning.git
   cd ../
@@ -36,13 +36,13 @@ https://sglab.kaist.ac.kr/KinodynamicComfortPlanning/
   ```
   
 3. Launch V-Rep
-```c++
+```
   cd ~/vrep ( your V-Rep root )
   ./vrep.sh
 ```
 open included test scene, which is in the scene folder and start simulation.
 
 4. Launch comfort_trajectory_optimizer_node
-```c++
+```
   rosrun comfort_trajectory_optimizer comfort_trajectory_optimizer_node
   ```
