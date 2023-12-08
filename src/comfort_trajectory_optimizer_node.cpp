@@ -15,6 +15,8 @@
 #define ACTION_DIM 2
 #define N 100
 
+using namespace sgvr;
+
 int main(int argc, char **argv){
     Eigen::Matrix<double, (STATE_DIM+ACTION_DIM), 1> currOdom;
     Eigen::Matrix<double, (STATE_DIM+ACTION_DIM), 1> goalOdom;
